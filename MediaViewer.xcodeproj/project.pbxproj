@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03691E0926774FEE00DA757C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03691E0426774FEE00DA757C /* Info.plist */; };
+		03691E0A26774FEE00DA757C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03691E0526774FEE00DA757C /* Assets.xcassets */; };
+		03691E0C2677510200DA757C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03691E0B2677510200DA757C /* MainMenu.xib */; };
+		03691E102677526900DA757C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03691E0F2677526900DA757C /* main.cpp */; };
+		03691E182677594100DA757C /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03691E162677594100DA757C /* AppDelegate.mm */; };
+		03691E192677594100DA757C /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03691E172677594100DA757C /* main.mm */; };
+		03691E1C26775AB600DA757C /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03691E1B26775AB600DA757C /* AppKit.framework */; };
+		03CDE41A269CE4B4000D7F77 /* Themes in Resources */ = {isa = PBXBuildFile; fileRef = 03CDE419269CE4B4000D7F77 /* Themes */; };
+		03CDE43D269CE5C1000D7F77 /* Plugins in Resources */ = {isa = PBXBuildFile; fileRef = 03CDE43C269CE5C1000D7F77 /* Plugins */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03691DEB26774EDD00DA757C /* MediaViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MediaViewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03691E0126774FEE00DA757C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03691E0226774FEE00DA757C /* GUI_Application.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "MediaViewer.entitlements"; sourceTree = "<group>"; };
+		03691E0426774FEE00DA757C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03691E0526774FEE00DA757C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03691E0B2677510200DA757C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		03691E0F2677526900DA757C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		03691E162677594100DA757C /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		03691E172677594100DA757C /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		03691E1B26775AB600DA757C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03CDE419269CE4B4000D7F77 /* Themes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Themes; sourceTree = "<group>"; };
+		03CDE43C269CE5C1000D7F77 /* Plugins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Plugins; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03691DE826774EDD00DA757C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03691E1C26775AB600DA757C /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03691DE226774EDD00DA757C = {
+			isa = PBXGroup;
+			children = (
+				03CDE43C269CE5C1000D7F77 /* Plugins */,
+				03CDE419269CE4B4000D7F77 /* Themes */,
+				03691DED26774EDD00DA757C /* Source */,
+				03691DEC26774EDD00DA757C /* Products */,
+				03691E1A26775AB600DA757C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03691DEC26774EDD00DA757C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03691DEB26774EDD00DA757C /* MediaViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03691DED26774EDD00DA757C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				03691E0F2677526900DA757C /* main.cpp */,
+				03691E0226774FEE00DA757C /* GUI_Application.entitlements */,
+				03691E0126774FEE00DA757C /* AppDelegate.h */,
+				03691E162677594100DA757C /* AppDelegate.mm */,
+				03691E172677594100DA757C /* main.mm */,
+				03691E0426774FEE00DA757C /* Info.plist */,
+				03691E0526774FEE00DA757C /* Assets.xcassets */,
+				03691E0B2677510200DA757C /* MainMenu.xib */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		03691E1A26775AB600DA757C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03691E1B26775AB600DA757C /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03691DEA26774EDD00DA757C /* MediaViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03691DFC26774EE400DA757C /* Build configuration list for PBXNativeTarget "MediaViewer" */;
+			buildPhases = (
+				03691DE726774EDD00DA757C /* Sources */,
+				03691DE826774EDD00DA757C /* Frameworks */,
+				03691DE926774EDD00DA757C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MediaViewer";
+			productName = "MediaViewer";
+			productReference = 03691DEB26774EDD00DA757C /* MediaViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03691DE326774EDD00DA757C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = josh;
+				TargetAttributes = {
+					03691DEA26774EDD00DA757C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 03691DE626774EDD00DA757C /* Build configuration list for PBXProject "MediaViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03691DE226774EDD00DA757C;
+			productRefGroup = 03691DEC26774EDD00DA757C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03691DEA26774EDD00DA757C /* MediaViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03691DE926774EDD00DA757C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CDE41A269CE4B4000D7F77 /* Themes in Resources */,
+				03691E0926774FEE00DA757C /* Info.plist in Resources */,
+				03691E0A26774FEE00DA757C /* Assets.xcassets in Resources */,
+				03CDE43D269CE5C1000D7F77 /* Plugins in Resources */,
+				03691E0C2677510200DA757C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03691DE726774EDD00DA757C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03691E192677594100DA757C /* main.mm in Sources */,
+				03691E182677594100DA757C /* AppDelegate.mm in Sources */,
+				03691E102677526900DA757C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03691DFA26774EE400DA757C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					_DEBUG,
+					_ULTRA_APPKIT,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03691DFB26774EE400DA757C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = _ULTRA_APPKIT;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03691DFD26774EE400DA757C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Source/MediaViewer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "C:/Program\\ Files\\ (x86)/Steam/steamapps/common/Ultra\\ App\\ Kit/Include";
+				INFOPLIST_FILE = Source/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=arm64]" = "C:/Program\\ Files\\ (x86)/Steam/steamapps/common/Ultra\\ App\\ Kit/Library/MacOS/arm64/Debug";
+				"LIBRARY_SEARCH_PATHS[arch=x86_64]" = "C:/Program\\ Files\\ (x86)/Steam/steamapps/common/Ultra\\ App\\ Kit/Library/MacOS/x64/Debug";
+				OTHER_LDFLAGS = "-lAppKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "My-Company.GUI-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03691DFE26774EE400DA757C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Source/MediaViewer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "C:/Program\\ Files\\ (x86)/Steam/steamapps/common/Ultra\\ App\\ Kit/Include";
+				INFOPLIST_FILE = Source/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=arm64]" = "C:/Program\\ Files\\ (x86)/Steam/steamapps/common/Ultra\\ App\\ Kit/Library/MacOS/arm64/Release";
+				"LIBRARY_SEARCH_PATHS[arch=x86_64]" = "C:/Program\\ Files\\ (x86)/Steam/steamapps/common/Ultra\\ App\\ Kit/Library/MacOS/x64/Release";
+				OTHER_LDFLAGS = "-lAppKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "My-Company.GUI-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03691DE626774EDD00DA757C /* Build configuration list for PBXProject "MediaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03691DFA26774EE400DA757C /* Debug */,
+				03691DFB26774EE400DA757C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03691DFC26774EE400DA757C /* Build configuration list for PBXNativeTarget "MediaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03691DFD26774EE400DA757C /* Debug */,
+				03691DFE26774EE400DA757C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03691DE326774EDD00DA757C /* Project object */;
+}
